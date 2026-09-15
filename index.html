@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eye Exam Doctor NJ | Comprehensive Eye Exam in Sparta, NJ</title>
+<meta name="description" content="Comprehensive Eye Exam, contact lens fittings, and family eye care at Eye Exam Doctor NJ in Sparta, NJ. Call 973-579-4644 to book your appointment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal-900:#123437;
+    --teal-800:#1B4B4F;
+    --teal-700:#256167;
+    --mint-50:#F2F6F3;
+    --mint-100:#E6EEE9;
+    --paper:#FBFAF7;
+    --coral:#E0664B;
+    --coral-dark:#C6543C;
+    --ink:#1E2A28;
+    --slate:#5C6B68;
+    --line:#D9E2DD;
+    --radius:4px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Inter', sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.6;
+  }
+  h1,h2,h3,h4{
+    font-family:'Newsreader', serif;
+    font-weight:500;
+    color:var(--teal-900);
+    margin:0 0 .5em;
+    line-height:1.15;
+  }
+  p{margin:0 0 1em;color:var(--slate);}
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 24px;}
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:14px 28px;
+    border-radius:var(--radius);
+    font-weight:600;
+    font-size:.95rem;
+    text-decoration:none;
+    border:1.5px solid transparent;
+    transition:background .2s ease, color .2s ease, border-color .2s ease;
+    cursor:pointer;
+  }
+  .btn-primary{background:var(--coral);color:#fff;}
+  .btn-primary:hover{background:var(--coral-dark);}
+  .btn-outline{border-color:rgba(255,255,255,.55);color:#fff;}
+  .btn-outline:hover{background:rgba(255,255,255,.12);}
+  .btn-outline-dark{border-color:var(--teal-800);color:var(--teal-800);}
+  .btn-outline-dark:hover{background:var(--teal-800);color:#fff;}
+
+  /* Header */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 24px;max-width:1140px;margin:0 auto;
+  }
+  .brand{
+    font-family:'Newsreader', serif;
+    font-size:1.3rem;
+    font-weight:600;
+    color:var(--teal-900);
+    text-decoration:none;
+    letter-spacing:.2px;
+  }
+  .brand span{color:var(--coral);}
+  .nav-links{display:flex;gap:32px;list-style:none;margin:0;padding:0;}
+  .nav-links a{
+    text-decoration:none;color:var(--ink);font-size:.95rem;font-weight:500;
+    padding-bottom:2px;border-bottom:1.5px solid transparent;
+    transition:border-color .2s ease, color .2s ease;
+  }
+  .nav-links a:hover{border-color:var(--coral);}
+  .nav-cta{display:flex;align-items:center;gap:20px;}
+  .nav-phone{font-weight:600;color:var(--teal-800);text-decoration:none;white-space:nowrap;}
+  .menu-toggle{display:none;background:none;border:none;font-size:1.6rem;cursor:pointer;color:var(--teal-900);}
+
+  /* Hero */
+  .hero{
+    background:var(--teal-800);
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.05fr .95fr;
+    align-items:center;
+    gap:56px;
+    padding:72px 24px 88px;
+    max-width:1140px;
+    margin:0 auto;
+    position:relative;
+    z-index:2;
+  }
+  .hero-eyebrow{
+    color:#BFE0DC;font-size:.85rem;font-weight:600;letter-spacing:.3px;
+    margin-bottom:14px;
+  }
+  .hero h1{
+    color:#fff;font-size:clamp(2.1rem,4vw,3.1rem);font-weight:500;margin-bottom:20px;
+  }
+  .hero h1 em{font-style:italic;color:#F0B8A9;}
+  .hero p.lead{color:#D8E6E4;font-size:1.08rem;max-width:46ch;margin-bottom:32px;}
+  .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:36px;}
+  .hero-stats{display:flex;gap:36px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.18);padding-top:24px;}
+  .hero-stat b{display:block;font-family:'Newsreader',serif;font-size:1.6rem;color:#fff;font-weight:500;}
+  .hero-stat span{font-size:.82rem;color:#B9D3D0;}
+  .hero-media{
+    position:relative;
+    border-radius:6px;
+    overflow:hidden;
+    box-shadow:0 24px 48px rgba(0,0,0,.28);
+  }
+  .hero-media img{width:100%;height:460px;object-fit:cover;}
+  .hero-ring{
+    position:absolute;
+    width:560px;height:560px;
+    border:1px solid rgba(255,255,255,.14);
+    border-radius:50%;
+    top:-160px;right:-220px;
+    z-index:1;
+  }
+
+  section{padding:88px 0;}
+  .section-head{max-width:640px;margin:0 auto 48px;text-align:center;}
+  .section-head .kicker{color:var(--coral);font-weight:600;font-size:.85rem;margin-bottom:10px;display:block;}
+  .section-head h2{font-size:clamp(1.7rem,3vw,2.3rem);}
+  .section-head p{margin-top:12px;}
+
+  /* Services */
+  .services{background:var(--mint-50);}
+  .service-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .service-card{
+    background:var(--paper);
+    padding:36px 32px;
+    border-left:3px solid transparent;
+    transition:border-color .2s ease, background .2s ease;
+  }
+  .service-card:hover{border-left-color:var(--coral);background:#fff;}
+  .service-card .num{
+    font-family:'Newsreader',serif;font-size:.9rem;color:var(--coral);
+    font-weight:600;margin-bottom:14px;display:block;
+  }
+  .service-card h3{font-size:1.15rem;margin-bottom:10px;}
+  .service-card p{font-size:.94rem;margin-bottom:0;}
+  .service-card.featured{background:var(--teal-800);}
+  .service-card.featured h3,.service-card.featured .num{color:#fff;}
+  .service-card.featured p{color:#CFE2DF;}
+  .service-card.featured{border-left-color:var(--coral);}
+
+  /* Why choose */
+  .why{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center;}
+  .why-media{border-radius:6px;overflow:hidden;box-shadow:0 20px 40px rgba(18,52,55,.14);}
+  .why-media img{width:100%;height:520px;object-fit:cover;}
+  .why-list{list-style:none;margin:0;padding:0;}
+  .why-list li{
+    display:flex;gap:18px;padding:22px 0;border-top:1px solid var(--line);
+  }
+  .why-list li:last-child{border-bottom:1px solid var(--line);}
+  .why-mark{
+    flex:none;width:34px;height:34px;border-radius:50%;
+    background:var(--mint-100);color:var(--teal-800);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Newsreader',serif;font-weight:600;font-size:1rem;
+  }
+  .why-item h4{font-size:1.05rem;margin-bottom:4px;}
+  .why-item p{margin:0;font-size:.94rem;}
+
+  /* About */
+  .about{background:var(--teal-900);color:#fff;}
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;}
+  .about h2{color:#fff;}
+  .about p{color:#C9DDDA;}
+  .about-facts{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px;}
+  .about-facts div{border-top:1px solid rgba(255,255,255,.18);padding-top:14px;}
+  .about-facts b{display:block;font-family:'Newsreader',serif;color:#fff;font-size:1.05rem;font-weight:500;margin-bottom:2px;}
+  .about-facts span{color:#AFCBC7;font-size:.86rem;}
+  .about-media{border-radius:6px;overflow:hidden;}
+  .about-media img{width:100%;height:420px;object-fit:cover;}
+
+  /* FAQ */
+  .faq-list{max-width:760px;margin:0 auto;}
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-q{
+    width:100%;text-align:left;background:none;border:none;cursor:pointer;
+    display:flex;justify-content:space-between;align-items:center;gap:20px;
+    padding:22px 4px;font-family:'Newsreader',serif;font-size:1.12rem;color:var(--teal-900);
+  }
+  .faq-q .icon{
+    flex:none;width:26px;height:26px;border-radius:50%;border:1.5px solid var(--teal-800);
+    display:flex;align-items:center;justify-content:center;font-size:1rem;color:var(--teal-800);
+    transition:transform .25s ease, background .25s ease, color .25s ease;
+  }
+  .faq-item.open .faq-q .icon{background:var(--coral);border-color:var(--coral);color:#fff;transform:rotate(45deg);}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;}
+  .faq-a p{padding:0 4px 22px;font-size:.96rem;max-width:64ch;}
+
+  /* Contact */
+  .contact{background:var(--mint-50);}
+  .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start;}
+  .contact-card{
+    background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:40px;
+  }
+  .contact-row{display:flex;gap:16px;padding:18px 0;border-top:1px solid var(--line);}
+  .contact-row:first-of-type{border-top:none;padding-top:0;}
+  .contact-row .ic{
+    flex:none;width:38px;height:38px;border-radius:50%;background:var(--mint-100);
+    display:flex;align-items:center;justify-content:center;color:var(--teal-800);font-size:1.05rem;
+  }
+  .contact-row h4{font-size:.98rem;margin-bottom:2px;color:var(--teal-900);}
+  .contact-row p{margin:0;font-size:.93rem;}
+  .contact-row a{text-decoration:none;color:var(--slate);}
+  .contact-row a:hover{color:var(--coral);}
+  .map-frame{border-radius:6px;overflow:hidden;border:1px solid var(--line);box-shadow:0 16px 32px rgba(18,52,55,.1);}
+  .map-frame iframe{width:100%;height:100%;min-height:460px;border:0;display:block;}
+
+  /* CTA band */
+  .cta-band{
+    background:var(--coral);color:#fff;text-align:center;padding:56px 24px;
+  }
+  .cta-band h2{color:#fff;margin-bottom:10px;}
+  .cta-band p{color:#FBE2DB;margin-bottom:26px;}
+  .cta-band .btn-primary{background:#fff;color:var(--coral-dark);}
+  .cta-band .btn-primary:hover{background:#F5EFEA;}
+
+  footer{background:var(--teal-900);color:#B9D3D0;padding:40px 24px;font-size:.88rem;}
+  .footer-grid{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;max-width:1140px;margin:0 auto;}
+  .footer-grid a{color:#B9D3D0;text-decoration:none;}
+  .footer-grid a:hover{color:#fff;}
+
+  @media (max-width:900px){
+    .nav-links{display:none;}
+    .menu-toggle{display:block;}
+    .hero-grid{grid-template-columns:1fr;padding-top:48px;}
+    .hero-media img{height:340px;}
+    .hero-ring{display:none;}
+    .service-grid{grid-template-columns:1fr;}
+    .why{grid-template-columns:1fr;}
+    .why-media img{height:320px;}
+    .about-grid{grid-template-columns:1fr;}
+    .contact-grid{grid-template-columns:1fr;}
+    section{padding:60px 0;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="#" class="brand">Eye Exam Doctor <span>NJ</span></a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="nav-phone" href="tel:9735794644">973-579-4644</a>
+      <a class="btn btn-outline-dark" href="tel:9735794644" style="padding:10px 18px;">Book Exam</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-ring"></div>
+  <div class="hero-grid">
+    <div>
+      <span class="hero-eyebrow">Sparta, New Jersey</span>
+      <h1>A <em>Comprehensive Eye Exam</em>, built around your vision</h1>
+      <p class="lead">From routine vision testing to diabetic eye checkups and contact lens fittings, our Sparta practice gives every patient a thorough, unhurried look at their eye health.</p>
+      <div class="hero-actions">
+        <a href="tel:9735794644" class="btn btn-primary">Call 973-579-4644</a>
+        <a href="#services" class="btn btn-outline">View Our Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>328B S Sparta Ave</b><span>Suite D5, Sparta, NJ 07871</span></div>
+        <div class="hero-stat"><b>Family Owned</b><span>Serving Sussex County</span></div>
+        <div class="hero-stat"><b>All Ages Welcome</b><span>Kids to seniors</span></div>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="https://img.magnific.com/free-photo/portrait-patient-having-eye-checkup_23-2151196688.jpg?ga=GA1.1.71057763.1789471113&semt=ais_hybrid&w=740&q=80" alt="Patient having a comprehensive eye exam at Eye Exam Doctor NJ in Sparta">
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Our Services</span>
+      <h2>Eye care built around one visit</h2>
+      <p>Every appointment starts with a full Comprehensive Eye Exam, then adapts to what your eyes actually need — whether that's a new prescription, contact lenses, or ongoing management of a health condition.</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card featured">
+        <span class="num">Featured</span>
+        <h3>Comprehensive Eye Exam</h3>
+        <p>A full evaluation of your vision and eye health, checking for refractive changes, glaucoma, cataracts, macular degeneration, and other conditions before they affect your sight.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">01</span>
+        <h3>Glasses Prescription Test</h3>
+        <p>Precise refraction testing so your glasses prescription is accurate and comfortable from the first day you wear them.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">02</span>
+        <h3>Contact Lens Exam</h3>
+        <p>Fittings for soft, rigid, and specialty lenses, including a trial period to make sure your contacts feel right before you commit.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">03</span>
+        <h3>Diabetic Eye Checkup</h3>
+        <p>Dilated retinal screening to catch diabetic retinopathy early, coordinated with your primary care physician when needed.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">04</span>
+        <h3>Dry Eye Evaluation</h3>
+        <p>Assessment of tear quality and ocular surface health, with a treatment plan tailored to the cause of your discomfort.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">05</span>
+        <h3>Annual & Routine Vision Exams</h3>
+        <p>Yearly checkups that track changes in your vision over time and keep your prescription and eye health records current.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="wrap">
+  <div class="why">
+    <div class="why-media">
+      <img src="https://img.magnific.com/premium-photo/male-ophthalmologist-performing-comprehensive-eye-exam-retinal-camera-optical-equipment-bright_1289822-10346.jpg?ga=GA1.1.71057763.1789471113&semt=ais_hybrid&w=740&q=80" alt="Optometrist using retinal camera during a comprehensive eye exam">
+    </div>
+    <div>
+      <span class="kicker" style="color:var(--coral);font-weight:600;font-size:.85rem;">Why Choose Us</span>
+      <h2>Why Choose Eye Exam Doctor NJ?</h2>
+      <p>We built this practice around one idea: your eye exam should never feel rushed. Here's what patients in Sparta and the surrounding area can expect.</p>
+      <ul class="why-list">
+        <li>
+          <span class="why-mark">1</span>
+          <div class="why-item">
+            <h4>Genuinely comprehensive exams</h4>
+            <p>Our exams go beyond a basic vision check to screen for underlying eye health conditions at every visit.</p>
+          </div>
+        </li>
+        <li>
+          <span class="why-mark">2</span>
+          <div class="why-item">
+            <h4>Modern diagnostic equipment</h4>
+            <p>Retinal imaging and optical equipment let us detect changes in your eyes earlier and explain them clearly.</p>
+          </div>
+        </li>
+        <li>
+          <span class="why-mark">3</span>
+          <div class="why-item">
+            <h4>Affordable, transparent care</h4>
+            <p>Straightforward pricing and insurance guidance, with no surprise costs added after your exam.</p>
+          </div>
+        </li>
+        <li>
+          <span class="why-mark">4</span>
+          <div class="why-item">
+            <h4>Care for the whole family</h4>
+            <p>From a child's first eye exam to routine screenings for grandparents, we see patients of every age.</p>
+          </div>
+        </li>
+        <li>
+          <span class="why-mark">5</span>
+          <div class="why-item">
+            <h4>Convenient Sparta location</h4>
+            <p>Easy to reach on S Sparta Ave with flexible scheduling for busy weekdays.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <span class="kicker" style="color:#F0B8A9;font-weight:600;font-size:.85rem;">About Our Practice</span>
+        <h2>About Our Eye Care Practice</h2>
+        <p>Eye Exam Doctor NJ is a family eye care provider based in Sparta, New Jersey, offering comprehensive eye exams, contact lens fittings, and ongoing management of eye health conditions like diabetic eye disease and dry eye. Our approach is simple: take the time to understand each patient's eyes, explain what we find in plain language, and recommend only what's actually needed.</p>
+        <p>Whether you're due for a routine vision exam, need a new glasses prescription, or want a second opinion on an eye health concern, our team is here to help you see clearly and keep your eyes healthy for years to come.</p>
+        <div class="about-facts">
+          <div><b>Optometrist-Led</b><span>Appointments with a licensed provider</span></div>
+          <div><b>Same-Area Access</b><span>Located in Sparta, Sussex County</span></div>
+          <div><b>Insurance Friendly</b><span>Guidance on vision plan coverage</span></div>
+          <div><b>Walk-In Friendly</b><span>Call ahead for same-week visits</span></div>
+        </div>
+      </div>
+      <div class="about-media">
+        <img src="https://img.magnific.com/premium-photo/eye-care-specialist-doctor-performing-comprehensive-eye-exam-female-patient-stateoftheart_1359741-14601.jpg?ga=GA1.1.71057763.1789471113&semt=ais_hybrid&w=740&q=80" alt="Eye care specialist performing a comprehensive eye exam on a patient">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="wrap">
+  <div class="section-head">
+    <span class="kicker">Common Questions</span>
+    <h2>Frequently Asked Questions</h2>
+    <p>Answers to what patients usually ask before their first visit.</p>
+  </div>
+  <div class="faq-list" id="faqList">
+    <div class="faq-item open">
+      <button class="faq-q"><span>What happens during a Comprehensive Eye Exam?</span><span class="icon">+</span></button>
+      <div class="faq-a"><p>A Comprehensive Eye Exam includes a vision test, refraction check, and an evaluation of your overall eye health, including screening for conditions like glaucoma, cataracts, and macular degeneration. It typically takes about 30–45 minutes.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span>How often should I get an eye exam?</span><span class="icon">+</span></button>
+      <div class="faq-a"><p>Most adults benefit from an annual eye exam, while patients with diabetes or existing eye conditions may need more frequent visits. Children should have their vision checked before starting school and yearly after that.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span>Do you fit contact lenses as well as glasses?</span><span class="icon">+</span></button>
+      <div class="faq-a"><p>Yes. We perform contact lens exams and fittings for soft, rigid, and specialty lenses, alongside standard glasses prescription testing, so you can choose what fits your lifestyle.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span>I have diabetes — do I need a different kind of exam?</span><span class="icon">+</span></button>
+      <div class="faq-a"><p>We offer a dedicated diabetic eye checkup that includes dilated retinal screening to catch early signs of diabetic retinopathy, which is important to monitor even if your vision feels normal.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span>Where is Eye Exam Doctor NJ located?</span><span class="icon">+</span></button>
+      <div class="faq-a"><p>We're located at 328B S Sparta Ave, Suite D5, Sparta, NJ 07871. Call 973-579-4644 to schedule or ask about parking and directions.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Contact Information</span>
+      <h2>Visit or Call Our Sparta Office</h2>
+      <p>Reach out to schedule your comprehensive eye exam or ask a question — we're happy to help.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-row">
+          <span class="ic">📍</span>
+          <div>
+            <h4>Address</h4>
+            <p>328B S Sparta Ave, Suite D5<br>Sparta, NJ 07871</p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="ic">📞</span>
+          <div>
+            <h4>Phone</h4>
+            <p><a href="tel:9735794644">973-579-4644</a></p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="ic">🌐</span>
+          <div>
+            <h4>Website</h4>
+            <p><a href="https://eyedealeyecarenj.com/" target="_blank" rel="noopener">eyedealeyecarenj.com</a></p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="ic">🗺️</span>
+          <div>
+            <h4>Find Us on Google</h4>
+            <p><a href="https://www.google.com/maps?cid=15149657666088992925" target="_blank" rel="noopener">View on Google Maps</a></p>
+          </div>
+        </div>
+        <a href="tel:9735794644" class="btn btn-primary" style="margin-top:8px;width:100%;justify-content:center;">Call to Book Your Exam</a>
+      </div>
+      <div class="map-frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.550504999229!2d-74.66790069999999!3d41.035089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7c777eb6b67%3A0xd23e65618802009d!2sEye%20Exam%20Doctor%20NJ!5e0!3m2!1sen!2s!4v1789382754733!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Eye Exam Doctor NJ location map"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>Ready for your Comprehensive Eye Exam?</h2>
+  <p>Book an appointment with Eye Exam Doctor NJ in Sparta today.</p>
+  <a href="tel:9735794644" class="btn btn-primary">Call 973-579-4644</a>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <span>© <span id="year"></span> Eye Exam Doctor NJ. All rights reserved.</span>
+    <span>328B S Sparta Ave, Suite D5, Sparta, NJ 07871 · <a href="tel:9735794644">973-579-4644</a> · <a href="https://eyedealeyecarenj.com/" target="_blank" rel="noopener">eyedealeyecarenj.com</a></span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    if(item.classList.contains('open')){ a.style.maxHeight = a.scrollHeight + 'px'; }
+    q.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-a').style.maxHeight = null;
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
